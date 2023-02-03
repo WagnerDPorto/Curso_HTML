@@ -1,41 +1,86 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!-- Digitando html:5 gera uma estrutura base do html -->
+<!DOCTYPE html><!-- Tag para dizer ao navegador que o documento é do tipo HTML -->
 
-<head>
+<html lang="pt-br"><!-- troque lang="en" por lang="pt-br" para deixar a linguagem da página em português -->
+
+<head><!-- Cabeça -->
+    <!-- meta tags padrão -->
     <meta charset="UTF-8">
+    <!-- meta tag padrão responsavel por deixar o sistema de caracteres com as acentuação compátivel com a lingua portuguesa -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- meta tag padrão usada para compatibilizar o site com o Internet Explore -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esse é meu primeiro site!">
-    <meta name="keywords" content="programação, html, javacript, (palavras chaves)">
-    <meta name="author" content="WagnerDPorto">
-    <title>Meu Primeiro Site!</title>
+    <!-- meta tag padrão importante para que o site se ajuste aos diferentes tipos de dispositivos do usuario (notebook, celular, tablet, etc...) -->
+
+    <!-- meta tags extras e importantes -->
+    <meta name="description" content="Mensagem resumida do que se trata o site!">
+    <!-- meta tag responsavel por gerar uma pequena descrição do site no link -->
+    <meta name="keywords" content="quanto mais palavras chaves forem digitadas neste espaço melhor">
+    <!-- palavras chaves relasionadas a proposta do site, para facilitar que mescanismos de buscas o encontrem. -->
+    <meta name="author" content="Nome do Desenvolvedor"><!-- meta tag de assinatura do autor do site -->
+
+    <title>Meu Primeiro Site!</title><!-- Título do site -->
+
 </head>
 
-<body>
+<body><!-- Corpo -->
 
-    <h1>Elementos de Citação</h1>
-    <p>Estamos aprendendo <abbr title="Hyper text markup language">HTML</abbr></p>
-    <p>Você conhece o inicio de um site com <abbr title="Word Wide Web">WWW</abbr>.</p>
-    <p>Loja Thal
-    <address>
-        Rua de Exemplo, N123, Centro, Cidade.
-    </address>
+    Tags de cabeçalho
 
-    <p> O filme <cite>Titanic</cite> com Leonardo de Caprio. Ele disse <q>blablabla</q> </p>
+    <h1>Tag para criar o título da página </h1>
+    <!-- Obs.: só deve haver um título h1 por página, e as tags de título servem para dizer ao navegador a ordem de importancia de cada texto -->
+    <h2>Título</h2><!--subtítulo-->
+    <h3>Título</h3><!--subtítulo-->
+    <h4>Título</h4><!--subtítulo-->
+    <h5>Título</h5><!--subtítulo-->
+    <h6>Título</h6><!-- menor subtítulo -->
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur praesentium voluptate ipsa voluptas sed numquam
-        vitae vero labore, debitis nulla hic quam porro ullam itaque error quas culpa dignissimos fugiat.</p>
+    <p>Tag para criar um novo paragrafo</p>
+    <br><!-- quebra de linha -->
+    <hr><!-- linha de divisão -->
 
-    <blockquote>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio eos, quos repellendus officiis reiciendis
-            porro possimus repudiandae, amet facilis error ducimus omnis, id voluptatem cupiditate neque et beatae
-            dolores corporis!</p>
-    </blockquote>
+    Tags de formatação
 
+    <br>
+    <b>negrito</b><br><!-- deixa o texto mais escuro -->
+    <strong>negrito</strong><br><!-- além de deixar o texto mais escuro, diz ao navegavegador que este trecho do texto tem mais relevancia -->
+    <i>itálico</i><br>
+    <em>itálico</em><br>
+    <u>sublinhado</u><br>
+    <small>deixa o texto menor</small><br>
+    <del>texto tachado ou riscado</del><br>
+    x<sup>caracter na parte superior</sup><br>
+    x <sub>caracter na parte inferior</sub><br><br>
+    <hr>
 
+    Atalhos Importantes
 
+    <p>Ctrl+S: salvar</p>
+    <p>Crtl+Z: código se ajusta a janela</p>
+    <p>Crtl+K+C: selecionando um trecho de código e usando o atalho, tranforma o trecho selecionado em um comentário</p>
+    <p>p>lorem: para gera um paragrafo automaticamente</p>
+    <p>p*(numero de paragrafos desejados)>lorem: para gerar uma quantidade x de paragrafos automaticamente</p>
+    <hr>
 
-    </p>
+    Elementos de Citação
+
+    <br>
+    <abbr title="Hiper Text Markup Languege">HTML</abbr>
+    <address>Endereço de um local: Rua, Numero, Bairro, Cidade</address>
+    <cite>Para citar uma obra ou autor existente</cite>
+    <q>Para citar um texto, dialogo, etc, de uma obra existentente</q>
+    <blockquote>Para dar destaque a um paragrafo especifico do texto</blockquote><br>
+    <hr>
+
+    Links ou Hiper Links
+    <br>
+    <!-- Link Absoluta (URL Absoluta)-->
+    <a href="https://google.com">Ir para o
+        Google</a><!-- tag de link para direcionamento de sites, páginas, etc, na mesma aba -->
+    <br>
+    <a href="https://google.com" target="_blank">Ir para o
+        Google</a><!-- tag de link para direcionamento de sites, páginas, etc, em uma nova aba -->
+
 
 
 
